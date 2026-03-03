@@ -8,7 +8,7 @@ pipeline {
     environment {
         //PATH = "/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:${PATH}"
         PATH = "/usr/local/bin:${PATH}"
-        DOCKERHUB_CREDENTIALS_ID = 'Docker_Hub'
+        DOCKERHUB_CREDENTIALS_ID = 'docker_hub'
         DOCKERHUB_REPO = 'tuusitalo/temp_convert_week6'
         DOCKER_IMAGE_TAG = 'latest'
     }

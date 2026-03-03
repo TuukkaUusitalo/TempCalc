@@ -5,7 +5,7 @@ public class Main {
         TemperatureConverter converter = new TemperatureConverter();
 
         double fahrenheit = 150.0;
-        double celsius = converter.fahrenheitToCelsius((fahrenheit));
+        double celsius = converter.fahrenheitToCelsius(fahrenheit);
         System.out.println(fahrenheit + "°F is " + celsius + "°C");
         System.out.println();
 
